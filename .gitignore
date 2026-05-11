@@ -3,3 +3,5 @@ venv
 virtualenv
 virtualenvironment
 venvironment
+__pycache__
+db.sqlite3
