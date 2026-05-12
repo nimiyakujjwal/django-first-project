@@ -17,9 +17,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from firstApp import views
+from quoteApp import views as quoteViews
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('hello/', views.display, name='hello'),
-    path('datetime/', views.displayDateTime, name='displayDateTime')
+    path('datetime/', views.displayDateTime, name='displayDateTime'),
+    path('quote/', quoteViews.displayQuote, name='quote')
 ]
