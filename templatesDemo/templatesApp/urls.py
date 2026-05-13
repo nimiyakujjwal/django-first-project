@@ -18,5 +18,6 @@ from django.urls import path
 from templatesApp import views
 
 urlpatterns = [
-    path('firstTemplate/', views.firstTemplateView, name='firstTemplate')
+    path('firstTemplate/', views.firstTemplateView, name='firstTemplate'),
+    path('employeeDetails/', views.employeeDetailsView, name='employeeDetails'),
 ]
