@@ -1,0 +1,18 @@
+img {
+    width: 700px;
+    height: auto;
+    border: 10px brown groove;
+    border-radius: 10px;
+    margin: 0% 20%;
+}
+
+h1 {
+    text-align: center;
+    color: #d80707;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+}
